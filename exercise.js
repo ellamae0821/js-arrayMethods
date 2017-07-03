@@ -13,8 +13,8 @@
 /*1. Mr. Bonner (aka the Red Rocket, the Red Mamba) doesn't belong in this class of Hall Of Famers. Remove this imposter immediately and assign it to a new variable named `notHof` Console.log this new variable as well as the original list.*/ 
 
 var hof = ["Jordan", "Bird", "Kobe", "Duncan", "Iverson", "Bonner"];
-hof.pop(5)
-console.log(hof)
+hof.pop(5);
+console.log(hof);
 
 
 /* The array.push() adds one or more element to the end of an array and returns the new length of the array*/
@@ -73,7 +73,8 @@ console.log(testMenu);
 var westSide = ["Dre", "2Pac", "Snoop"];
 var eastSide = ["Biggie", "Diddy", "Craig Mack"];
 
-
+var oneLove = westSide.concat(eastSide);
+console.log(oneLove);
 
 /*The array.join() joins all the elements of an array into a string.*/
 
@@ -81,6 +82,8 @@ var eastSide = ["Biggie", "Diddy", "Craig Mack"];
 
 var shoe = ["just", "do", "it"];
 
+var shoeString = shoe.join();
+console.log(shoeString);
 
 
 /*The array.slice() extracts a section of an array and returns a new array.
@@ -92,6 +95,9 @@ array.slice(index start, index end)*/
 var fbFriends = ["Khalid", "Yeezy", "Kimmy K", "Lamar Odom", "Lebron", "Warren Buffet"];
 
 
+var unFriend = fbFriends.slice(1,4);
+console.log(unFriend);
+console.log(fbFriends);
 
 
 
